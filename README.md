@@ -4,7 +4,9 @@
 Usage Examples:
 ```javascript
 $(function() {
-  $('#fullpage').each(function(){$(this).fullpage($(this).optionsData(/fullPage/));});
+    $('#fullpage').each(function() {
+        $(this).fullpage($(this).optionsData(/fullPage/));
+    });
 });
 ```
 ```html
@@ -21,5 +23,29 @@ $(function() {
 	data-full-page-anchors[4]="lastPage"
 	data-full-page-menu="#menu",
 	data-full-page-scrolling-speed="100"
+>
+```
+Usage Example 2
+```javascript
+$(function() {
+    $('.slider').each(function() {
+        $(this).slick($(this).optionsData(/slick/));
+    });
+});
+```
+```html
+<div class="slider" 
+    data-slick-slides-to-show="3" 
+    data-slick-slides-to-scroll="1" 
+    data-slick-dots="true" 
+    data-slick-infinite="false" 
+    data-slick-css-ease="linear" 
+    data-slick-autoplay="true"
+    data-slick-autoplay-speed="1"
+    data-slick-speed="1000"
+    data-slick-center-mode="true"
+    data-slick-initial-slide="1"
+    data-slick-responsive[0].breakpoint="600"
+    data-slick-responsive[0].settings.slides-to-show="1"
 >
 ```
