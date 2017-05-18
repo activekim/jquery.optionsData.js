@@ -21,7 +21,7 @@ $(function() {
 	data-full-page-anchors[2]="3rdPage"
 	data-full-page-anchors[3]="4thpage"
 	data-full-page-anchors[4]="lastPage"
-	data-full-page-menu="#menu",
+	data-full-page-menu="#menu"
 	data-full-page-scrolling-speed="100"
 >
 ```
